@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bulma Blog</title>
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet"> 
+  </head>
+  <body>
+    <!-- this is the top navigation -->
+    <nav class="nav has-shadow">
+      <div class="container">
+	<div class="nav-left">
+	  <a class="nav-item">
+            <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma logo">
+	  </a>
+	</div>
+	<div class="nav-center">
+	  <a class="nav-item is-tab">
+	    <span class="icon">
+              <i class="fa fa-facebook"></i>
+	    </span>
+	  </a>
+	  <a class="nav-item is-tab">
+	    <span class="icon">
+              <i class="fa fa-twitter"></i>
+	    </span>
+	  </a>
+	  <a class="nav-item is-tab">
+	    <span class="icon">
+              <i class="fa fa-instagram"></i>
+	    </span>
+	  </a>
+	  <a class="nav-item is-tab">
+	    <span class="icon">
+              <i class="fa fa-rss"></i>
+	    </span>
+	  </a>
+	</div>
+	<span class="nav-toggle">
+	  <span></span>
+	  <span></span>
+	  <span></span>
+	</span>
+	<div class="nav-right nav-menu">
+	  <a class="nav-item is-tab">Home</a>
+	  <a class="nav-item is-tab">Archive</a>
+	  <a class="nav-item is-tab">About</a>
+	  <a class="nav-item is-tab is-active">Contact</a>	  
+	</div>
+      </div>
+    </nav>
+    <!-- end of top navigation -->
+
+    <!-- this is the title section -- this can include a header image
+	 if this section isn't big enough, add a div with the "section" class -->
+    <div class="section">
+      <section class="hero is-light">
+	<div class="hero-body">
+	  <div class="container has-text-centered" style="font-family: 'Rock Salt', cursive;">
+	    <h1 class="title is-1 is-spaced">
+              Bulma Blog
+	    </h1>
+	    <h3 class="subtitle is-3">
+              <i>... or something</i>
+	    </h3>
+	  </div>
+	</div>
+      </section>
+    </div>
+    <!-- end of title section -->
+
+    <!-- this is the main page content -->
+    <div class="section">
+      <div class="container">
+	<div class="columns is-multiline is-centered">	  
+	  <!-- posts (image length should be 400; height can be whatever) -->
+	  <div class="column is-8">
+	    <div class="box">
+	      <div class="content-header">
+		<div class="has-text-centered">
+		  <img src="http://placehold.it/200x200">
+		  <h4 class="title is-4 is-spaced">Contact</h4>
+		  <h5 class="subtitle is-5"><i>Contact Subtitle</i></h5>
+
+		  <!-- some short links like on above -->
+		  <div class="nav-center">
+		    <a class="nav-item is-tab">
+		      <span class="icon">
+			<i class="fa fa-facebook"></i>
+		      </span>
+		    </a>
+		    <a class="nav-item is-tab">
+		      <span class="icon">
+			<i class="fa fa-twitter"></i>
+		      </span>
+		    </a>
+		    <a class="nav-item is-tab">
+		      <span class="icon">
+			<i class="fa fa-instagram"></i>
+		      </span>
+		    </a>
+		  </div>
+		  <!-- end short links -->
+		  
+		  <hr/>
+		</div>
+	      </div>
+
+	      <!-- form begin -->
+	      <form>
+		<div class="field">
+		  <label class="label">Name</label>
+		  <p class="control">
+		    <input class="input" type="text" placeholder="Text input">
+		  </p>
+		</div>
+
+		<div class="field">
+		  <label class="label">Email</label>
+		  <p class="control">
+		    <input class="input" type="text" placeholder="Email input" value="">
+		  </p>
+		</div>
+
+		<div class="field">
+		  <label class="label">Subject</label>
+		  <p class="control">
+		    <span class="select">
+		      <select>
+			<option>Select dropdown</option>
+			<option>With options</option>
+		      </select>
+		    </span>
+		  </p>
+		</div>
+
+		<div class="field">
+		  <label class="label">Message</label>
+		  <p class="control">
+		    <textarea class="textarea" placeholder="Textarea"></textarea>
+		  </p>
+		</div>
+
+		<div class="field is-grouped">
+		  <p class="control">
+		    <button class="button is-primary">Send</button>
+		  </p>
+		  <p class="control">
+		    <button class="button is-link">Clear</button>
+		  </p>
+		</div>
+	      </form>
+	      <!-- form end -->
+	      
+	      <hr/>
+	      <div class="end-content-nav-wrapper">
+		<div class="is-pulled-left">
+		  <a href="#">
+		    <i class="fa fa-angle-double-left" aria-hidden="true"> Back to Home</i>
+		  </a>
+		</div>
+	      </div>
+	    </div>
+	    <!-- about content should end here --> 
+	    
+	  </div>
+	  <!-- end of about column -->
+
+	  <!-- sidebar with plugins/details/etc -->
+	  <div class="column is-4 is-narrow">
+	    <div class="card-wrapper">
+	      <div class="card">
+		<header class="card-header-fix-center has-text-centered">
+		  <p class="card-header-title-fix">
+		    About
+		  </p>
+		</header>
+		<div class="card-content">
+		  <div class="content">
+		    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+		    <a>@bulmaio</a>. <a>#css</a> <a>#responsive</a>
+		  </div>
+		</div>
+	      </div>
+	    </div>
+
+	    <div class="card-wrapper">
+	      <div class="card">
+		<div class="card-image">
+		  <figure class="image is-4by3">
+		    <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
+		  </figure>
+		</div>
+		<div class="card-content">
+		  <div class="media">
+		    <div class="media-left">
+		      <figure class="image is-48x48">
+			<img src="http://bulma.io/images/placeholders/96x96.png" alt="Image">
+		      </figure>
+		    </div>
+		    <div class="media-content">
+		      <p class="title is-4">John Smith</p>
+		      <p class="subtitle is-6">@johnsmith</p>
+		    </div>
+		  </div>
+
+		  <div class="content">
+		    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+		    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+		    <a>#css</a> <a>#responsive</a>
+		    <small>11:09 PM - 1 Jan 2016</small>
+		  </div>
+		</div>
+	      </div>
+	    </div>
+
+	    <div class="card-wrapper">
+	      <div class="card">
+		<header class="card-header-fix-center has-text-centered">
+		  <p class="card-header-title-fix">
+		    Something
+		  </p>
+		</header>
+		<div class="card-content">
+		  <div class="content">
+		    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+		  </div>
+		</div>
+	      </div>	    
+	    </div>
+	    <!-- end of plugins/etc/ column -->
+	    
+	  </div>
+	</div>
+      </div>
+    </div>
+    <!-- end of main page content -->
+
+    <!-- footer begins here -->
+    <div class="hero-foot footer-top-shadow">
+      <div class="container has-text-centered">
+	<div class="nav-center">
+	  <a class="nav-item" href="http://github.com/plasticneko">
+	    <span class="icon">
+              <i class="fa fa-github"></i>
+	    </span>
+	  </a>
+	</div>  
+	<p>template by <a href="http://github.com/plasticneko">github.com/plasticneko</a></p>
+      </div>
+    </div>
+    <!-- footer end here -->    
+  </body>
+</html>
