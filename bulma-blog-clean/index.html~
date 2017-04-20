@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Bulma Blog 3</title>
+    <title>Bulma Blog 2</title>
     <link rel="stylesheet" href="css/bulma.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -34,7 +34,6 @@
 	    <hr/>
 	    <!-- post categories -->
 	    <div class="nav-footer has-text-right">
-	      <p><i>Currently in <b><a href="">Field</a></b></i></p>
 	      <p><i><b><a href="">Field</a></b>, <a><b>Category</b></a>, <a><b>Empty</b></a></i></p>
 	    </div>
 	  </div>
@@ -48,7 +47,7 @@
 		<h1 class="title is-4">
 		  Leaping Sideways to Make Python Slower
 		</h1>
-		<small><i>Posted in <a>Web Design</a> on <a>January 20, 2015</a> by <a>Author</a></i></small>
+		<small><i>Posted in <a href="">Web Design</a> on <a href="">January 20, 2015</a> by <a href="">Author</a></i></small>
 	      </div>
 	      <div class="content">
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia euismod urna, in gravida leo efficitur a. Sed tempus augue risus, eget faucibus urna hendrerit a. Donec pulvinar maximus dui ut porttitor. Nullam tristique tortor et ipsum tristique, ac lacinia diam faucibus. Nunc cursus massa eget consectetur laoreet.</p>
@@ -67,7 +66,7 @@
 		<h1 class="title is-4">
 		  Leaping Sideways to Make Python Slower
 		</h1>
-		<small><i>Posted in <a>Web Design</a> on <a>January 20, 2015</a> by <a>Author</a></i></small>
+		<small><i>Posted in <a href="">Web Design</a> on <a href="">January 20, 2015</a> by <a href="">Author</a></i></small>
 	      </div>	      
 	      <div class="content">
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia euismod urna, in gravida leo efficitur a. Sed tempus augue risus, eget faucibus urna hendrerit a. Donec pulvinar maximus dui ut porttitor. Nullam tristique tortor et ipsum tristique, ac lacinia diam faucibus. Nunc cursus massa eget consectetur laoreet.</p>
@@ -86,7 +85,7 @@
 		<h1 class="title is-4">
 		  Leaping Sideways to Make Python Slower
 		</h1>
-		<small><i>Posted in <a>Web Design</a> on <a>January 20, 2015</a> by <a>Author</a></i></small>
+		<small><i>Posted in <a href="">Web Design</a> on <a href="">January 20, 2015</a> by <a href="">Author</a></i></small>
 	      </div>	      
 	      <div class="content">
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia euismod urna, in gravida leo efficitur a. Sed tempus augue risus, eget faucibus urna hendrerit a. Donec pulvinar maximus dui ut porttitor. Nullam tristique tortor et ipsum tristique, ac lacinia diam faucibus. Nunc cursus massa eget consectetur laoreet.</p>

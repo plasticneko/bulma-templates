@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Bulma Blog 3</title>
+    <title>Bulma Blog 2</title>
     <link rel="stylesheet" href="css/bulma.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -37,86 +37,29 @@
 	      <p><i><b><a href="">Field</a></b>, <a><b>Category</b></a>, <a><b>Empty</b></a></i></p>
 	    </div>
 	  </div>
-	  
-	  <!-- contact column -->
+
+	  <!-- posts column -->
 	  <div class="column is-8 is-offset-1 is-centered">
-	    <!-- start of contact -->
+	    <!-- start of post -->
 	    <div class="header-content">
-	      <!-- has-padding exists because is-pulled-right && is-pulled-left 
-		   tend to mess with the formatting normally put here-->
-	      <div class="has-padding"> 
-		<img src="http://placehold.it/900x200">
-		<div class="is-pulled-left">
-		  <h1 class="title is-4">
-		    Contact
-		  </h1>
-		</div>
-		<div class="is-pulled-right">
-		  <div class="nav-center">
-		    <a class="nav-item" href="">
-		      <span class="icon">
-			<i class="fa fa-twitter"></i>
-		      </span>
-		    </a>
-		    <a class="nav-item" href="">
-		      <span class="icon">
-			<i class="fa fa-facebook"></i>
-		      </span>
-		    </a>
-		    <a class="nav-item" href="">
-		      <span class="icon">
-			<i class="fa fa-instagram"></i>
-		      </span>
-		    </a>
-		    <a class="nav-item" href="">
-		      <span class="icon">
-			<i class="fa fa-linkedin"></i>
-		      </span>
-		    </a>
-		  </div>
-		</div>
-	      </div>
-	      <!-- end of has-wrapping -->
-	      <small><i>Some subtitle about the fact that this is a contact page</i></small>
-	    </div>
+	      <img src="http://placehold.it/900x200">
+	      <h1 class="title is-4">
+		Leaping Sideways to Make Python Slower
+	      </h1>
+	      <small><i>Posted in <a href="">Web Design</a> on <a href="">January 20, 2015</a> by <a href="">Author</a></i></small>
+	    </div>	      
 	    <div class="content">
-	      <!-- form begin -->
-	      <form>
-		<div class="field">
-		  <label class="label">Name</label>
-		  <p class="control">
-		    <input class="input" type="text" placeholder="Name">
-		  </p>
-		</div>
-		<div class="field">
-		  <label class="label">Email</label>
-		  <p class="control">
-		    <input class="input" type="email" placeholder="Email" value="">
-		  </p>
-		</div>
-		<div class="field">
-		  <label class="label">Message</label>
-		  <p class="control">
-		    <textarea class="textarea" placeholder="Message"></textarea>
-		  </p>
-		</div>
-		<div class="field is-grouped">
-		  <p class="control">
-		    <button class="button menu-label">Send Message</button>
-		  </p>
-		  <p class="control">
-		    <button class="button menu-label is-link">Clear</button>
-		  </p>
-		</div>
-	      </form>	      
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia euismod urna, in gravida leo efficitur a. Sed tempus augue risus, eget faucibus urna hendrerit a. Donec pulvinar maximus dui ut porttitor. Nullam tristique tortor et ipsum tristique, ac lacinia diam faucibus. Nunc cursus massa eget consectetur laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia euismod urna, in gravida leo efficitur a. Sed tempus augue risus, eget faucibus urna hendrerit a. Donec pulvinar maximus dui ut porttitor. Nullam tristique tortor et ipsum tristique, ac lacinia diam faucibus. Nunc cursus massa eget consectetur laoreet.</p>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia euismod urna, in gravida leo efficitur a. Sed tempus augue risus, eget faucibus urna hendrerit a. Donec pulvinar maximus dui ut porttitor. Nullam tristique tortor et ipsum tristique, ac lacinia diam faucibus. Nunc cursus massa eget consectetur laoreet.</p>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia euismod urna, in gravida leo efficitur a. Sed tempus augue risus, eget faucibus urna hendrerit a. Donec pulvinar maximus dui ut porttitor. Nullam tristique tortor et ipsum tristique, ac lacinia diam faucibus. Nunc cursus massa eget consectetur laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia euismod urna, in gravida leo efficitur a. Sed tempus augue risus, eget faucibus urna hendrerit a. Donec pulvinar maximus dui ut porttitor. Nullam tristique tortor et ipsum tristique, ac lacinia diam faucibus. Nunc cursus massa eget consectetur laoreet.</p>
 	      <div class="content-footer">
 		<hr/>
 		<p><a class="button menu-label" href="">Back to Home</a></p>
 	      </div>
 	    </div>
-	    <!-- end of contact -->
+	    <!-- end of post -->
 	  </div>
-	  <!--  end of contact column -->	  
+	  <!--  end of post column -->
 	</div>
       </div>
     </div>

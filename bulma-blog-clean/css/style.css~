@@ -1,13 +1,8 @@
-/* github.com/plasticneko */
-/* bulma css framework by jeremy thomas (github.com/jgthms | bulma.io) */
-
-/* basic formatting changes */
-
 a {
     color: grey;
 }
 
-.content p, .header-content, .footer, .nav-header, .input, .textarea, .nav-footer p {
+.content p, .header-content, .footer, .nav-header, .input, .textarea {
     font-family: 'Crimson Text', serif;
 }
 
