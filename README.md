@@ -6,7 +6,7 @@ Can download all, any or one and change as much as you like.
 
 ### Example Links
 
-All of these are working examples in the visual sense. Can navigate somewhat. All themes contain a minimum of: an index page, an about page and a contact page.
+Below are examples of the templates in this repository. All themes contain a minimum of: an index page, an about page and a contact page.
 
 [blog-article](https://plasticneko.github.io/bulma-blog-article/) - article themed blog template
 
