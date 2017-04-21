@@ -163,3 +163,9 @@ a.nav-item:hover  {
     color: #dd7325;
 }
 
+/* input select  */
+input:focus, textarea:focus, input[type]:focus {
+    box-shadow: 0 0 5px #719ECE;
+    border: 1px;
+    outline: none !important;
+}
