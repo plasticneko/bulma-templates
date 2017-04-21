@@ -93,7 +93,7 @@ a.nav-item:hover  {
     box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
 }
 
-.card-content-header .title {
+.card-content-header .title, .card-content-header a {
     color: whitesmoke;
 }
 
