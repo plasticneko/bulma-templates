@@ -1,0 +1,148 @@
+/* github.com/plasticneko */
+/* bulma css framework by jeremy thomas (github.com/jgthms | bulma.io) */
+
+/* basic formatting changes (mostly to cater for darker colours) */
+
+/* html/body/font-fixes */
+body, input, textarea, .button {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fa small {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* navigation */
+.nav {
+    background-color: #0c0f0f;
+}
+
+.nav a {
+    color: whitesmoke;
+}
+
+a.nav-item.is-tab.is-active {
+    border-bottom-color: #dd7325;
+    border-width: 2px;
+    color: whitesmoke;
+}
+
+a.nav-item.is-tab:hover {
+    border-bottom-color: #dd7325;
+    border-width: 2px;
+    color: #dd7325;
+}
+
+a.nav-item:hover  {
+    color: #dd7325;
+}
+
+/* footer */
+.footer {
+    background-color: #0c0f0f;
+    color: whitesmoke;
+}
+
+.footer a {
+    color: #dd7325;
+}
+
+.footer-top-shadow {
+    box-shadow: 0 1px 3px rgba(10, 10, 10, 0.1);
+}
+
+/* card */
+.card {
+    background-color: #161c1c;
+}
+
+.card .card-content-footer {
+    color: #7a7a7a;
+}
+
+.card-content-footer i {
+    padding: 10px;
+}
+
+/* page-header */
+.page-header .title {
+    color: whitesmoke;
+}
+
+.page-header .subtitle {
+    color: #dd7325;
+}
+
+.page-header {
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+}
+
+.page-header .section {
+    background-color: #161c1c;
+}
+
+/* content */		      
+.content small {
+    color: #7a7a7a;
+}
+
+/* card header */
+.card-content-header {
+    background-color: #dd7325;
+    padding: 20px;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+}
+
+.card-content-header .title {
+    color: whitesmoke;
+}
+
+/* main content */
+.main-content {
+    background-color: #363636;
+}
+
+/* contact content */
+/* about content */
+/* post content */
+.contact-content, .about-content, .post-content {
+    background-color: #363636;
+}
+
+.contact-inner p, .about-inner p, .post-inner {
+    color: whitesmoke;
+}
+
+.contact-inner form {
+    padding-top: 20px;
+}
+
+.contact-inner, .about-inner, .post-inner {
+    padding: 25px;
+    padding-bottom: 50px;
+}
+
+.contact-inner .label {
+    color: whitesmoke;
+    font-weight: 100;
+}
+
+/* button colouring */
+.is-pagination, .pagination-link {
+    background-color: #7a7a7a;
+    border-color: transparent;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.button:hover, .pagination .is-current, .pagination-link:hover {
+    background-color: #dd7325;
+    border-color: transparent;
+    color: whitesmoke;
+}
+
+/* pagination */
+.pagination-style-custom {
+    padding-top: 50px;
+}
+
+
