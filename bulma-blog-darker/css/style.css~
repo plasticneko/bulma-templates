@@ -145,21 +145,4 @@ a.nav-item:hover  {
     padding-top: 50px;
 }
 
-/* comments block */
-.comments-content {
-    background-color: #161c1c;
-}
-
-.comments-wrapper p {
-    color: whitesmoke;
-}
-
-.comments-wrapper strong {
-    color: whitesmoke;
-    font-weight: 100;
-}
-
-.comments-wrapper a {
-    color: #dd7325;
-}
 
