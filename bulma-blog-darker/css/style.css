@@ -10,6 +10,27 @@ body, input, textarea, .button {
 
 .fa small {
     font-family: 'Roboto Condensed', sans-serif;
+    color: #7a7a7a;
+}
+
+/* button colouring */
+.is-button-grey, .pagination-link {
+    background-color: #7a7a7a;
+    border-color: transparent;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.button:hover, .pagination .is-current, .pagination-link:hover {
+    background-color: #dd7325;
+    border-color: transparent;
+    color: whitesmoke;
+}
+
+/* input select  */
+input:focus, textarea:focus, input[type]:focus {
+    box-shadow: 0 0 5px #719ECE;
+    border: 1px;
+    outline: none !important;
 }
 
 /* navigation */
@@ -37,33 +58,6 @@ a.nav-item:hover  {
     color: #dd7325;
 }
 
-/* footer */
-.footer {
-    background-color: #0c0f0f;
-    color: whitesmoke;
-}
-
-.footer a {
-    color: #dd7325;
-}
-
-.footer-top-shadow {
-    box-shadow: 0 1px 3px rgba(10, 10, 10, 0.1);
-}
-
-/* card */
-.card {
-    background-color: #161c1c;
-}
-
-.card .card-content-footer {
-    color: #7a7a7a;
-}
-
-.card-content-footer i {
-    padding: 10px;
-}
-
 /* page-header */
 .page-header .title {
     color: whitesmoke;
@@ -81,12 +75,25 @@ a.nav-item:hover  {
     background-color: #161c1c;
 }
 
-/* content */		      
-.content small {
+/* page content styling */
+.page-content {
+    background-color: #363636;
+}
+
+/* card changes */
+.card {
+    background-color: #161c1c;
+}
+
+.card .card-content-footer {
     color: #7a7a7a;
 }
 
-/* card header */
+.card-content-footer i {
+    padding-right: 10px;
+    padding-top: 2px;
+}
+
 .card-content-header {
     background-color: #dd7325;
     padding: 20px;
@@ -97,61 +104,79 @@ a.nav-item:hover  {
     color: whitesmoke;
 }
 
-/* main content */
-.main-content {
-    background-color: #363636;
-}
-
-/* contact content */
-/* about content */
-/* post content */
-.contact-content, .about-content, .post-content {
-    background-color: #363636;
-}
-
-.contact-inner p, .about-inner p, .post-inner {
-    color: whitesmoke;
-}
-
-.contact-inner form {
-    padding-top: 20px;
-}
-
-.contact-inner, .about-inner, .post-inner {
+.card-inner-wrapper {
     padding: 25px;
-    padding-bottom: 50px;
 }
 
-.contact-inner .label {
+.card-content-text {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #dd7325;
+}
+
+.card-content-text p {
+    color: whitesmoke;
+    font-size: 1.1em;
+}
+
+.card-content-text label {
     color: whitesmoke;
     font-weight: 100;
 }
 
-/* button colouring */
-.is-pagination, .pagination-link {
-    background-color: #7a7a7a;
-    border-color: transparent;
-    color: rgba(0, 0, 0, 0.7);
+.card-content-nav {
+    padding-top: 10px;
 }
 
-.button:hover, .pagination .is-current, .pagination-link:hover {
-    background-color: #dd7325;
-    border-color: transparent;
-    color: whitesmoke;
+.card-content-footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.card-content-footer-small {
+    padding-top: 20px;
+    margin-bottom: -25px;
+}
+
+.card-content-footer-cols {
+    padding-top: 20px;
+    margin-bottom: -20px;
+}
+
+.card-content-form {
+    padding-top: 20px;
 }
 
 /* pagination */
+.comments-content {
+    background-color: #161c1c;
+    padding-bottom: 10px;
+}
+
 .pagination-style-custom {
     padding-top: 50px;
 }
 
 /* comments block */
-.comments-content {
-    background-color: #161c1c;
+.comments-wrapper {
+    padding: 25px;
+}
+
+.comments-header {
+    background-color: #dd7325;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+    padding: 20px;
+}
+
+.comments-header .title {
+    color: whitesmoke;
 }
 
 .comments-wrapper p {
     color: whitesmoke;
+}
+
+.comments-wrapper small {
+    color: #7a7a7a;
 }
 
 .comments-wrapper strong {
@@ -163,9 +188,20 @@ a.nav-item:hover  {
     color: #dd7325;
 }
 
-/* input select  */
-input:focus, textarea:focus, input[type]:focus {
-    box-shadow: 0 0 5px #719ECE;
-    border: 1px;
-    outline: none !important;
+.comments-wrapper .media .media, .comments-wrapper .media + .media {
+    border-top: 1px solid #dd7325;
+}
+
+/* footer */
+.footer {
+    background-color: #0c0f0f;
+    color: whitesmoke;
+}
+
+.footer a {
+    color: #dd7325;
+}
+
+.footer-top-shadow {
+    box-shadow: 0 1px 3px rgba(10, 10, 10, 0.1);
 }

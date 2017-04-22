@@ -2,9 +2,11 @@
 <html lang="en">
   <head>
     <title>Bulma Blog Dark 1</title>
+    <!-- stylesheets -->
     <link rel="stylesheet" href="css/bulma.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> 
   </head>
   <body>
@@ -12,11 +14,13 @@
     <div class="hero-head">
       <nav class="nav has-shadow">
 	<div class="container">
+	  <!-- nav site title -->
 	  <div class="nav-left">
 	    <a class="nav-item">
 	      <h3 class="title is-3" style="color: white;">BULMA DARK</h3>
 	    </a>
 	  </div>
+	  <!-- end of site title -->
 
 	  <!-- this "nav-toggle" hamburger menu is only visible on mobile -->
 	  <span class="nav-toggle">
@@ -24,16 +28,20 @@
 	    <span></span>
 	    <span></span>
 	  </span>
+	  <!-- end of toggle -->
 
 	  <!-- this "nav-menu" is hidden on mobile -->
 	  <div class="nav-right nav-menu">
-	    <a class="nav-item is-tab">
+	    <a class="nav-item is-tab" href="index.html">
 	      Home
 	    </a>
-	    <a class="nav-item is-tab is-active">
+	    <a class="nav-item is-tab" href="post.html">
+	      Static Post
+	    </a>
+	    <a class="nav-item is-tab is-active" href="about.html">
 	      About
 	    </a>
-	    <a class="nav-item is-tab">
+	    <a class="nav-item is-tab" href="contact.html">
 	      Contact
 	    </a>
 	    <a class="nav-item">
@@ -42,6 +50,7 @@
 	      </span>
 	    </a>
 	  </div>
+	  <!-- end of nav -->
 	</div>
       </nav>
     </div>
@@ -52,8 +61,12 @@
       <div class="section">
 	<div class="container">
 	  <div class="has-text-centered">
+	    <!-- header && subheader -->
 	    <h1 class="title is-1 is-spaced">BULMA DARK</h1>
 	    <h4 class="subtitle is-4">bulma dark template</h4>
+	    <!-- end of header && subheader -->
+	    
+	    <!-- header nav content -->
 	    <div class="nav-center">
 	      <a class="nav-item" href="">
 		<span class="icon">
@@ -96,56 +109,71 @@
 		</span>
 	      </a>
 	    </div>
+	    <!-- end of header nav content -->
 	  </div>
 	</div>
       </div>
     </div>
     <!-- end page header -->
 
-    <!-- main page content -->
-    <div class="hero-body contact-content">
+    <!-- page content -->
+    <div class="hero-body page-content">
       <div class="container">
-	<!-- start of contact -->
+	<!-- start of about -->
 	<div class="columns is-multiline is-centered">
-	  <!-- start of contact -->
-	  <div class="column is-6">
+	  <!-- start of about -->
+	  <div class="column is-7">
 	    <div class="card">
+	      <!-- about header-->
 	      <div class="card-content-header has-text-centered">
 		<h4 class="title is-4">About Header</h4>
 	      </div>
+	      <!-- end of about header -->
+
+	      <!-- about content -->
 	      <div class="card-content">
 		<div class="content">
-		  <div class="about-inner">
-		    <p> Phasellus bibendum lectus magna, vitae sagittis orci feugiat non. Aenean varius diam vel nunc tincidunt congue. In hendrerit nulla quis justo hendrerit placerat. Aliquam volutpat nisl id nulla scelerisque, et dictum metus interdum. Integer hendrerit pellentesque velit, efficitur dapibus enim efficitur nec. Integer quis imperdiet nulla, in commodo lectus. Nunc vitae diam accumsan, rutrum urna vitae, ultricies velit. Vivamus rhoncus volutpat quam, id iaculis erat placerat vitae. Proin vehicula sodales odio, et dignissim turpis aliquet vel.</p>
-		    <p>Donec id nulla mauris. Suspendisse auctor felis id orci pulvinar, quis ultricies enim porttitor. Maecenas posuere, metus nec luctus interdum, sapien velit faucibus turpis, in cursus magna nulla vitae elit. Phasellus eleifend nulla eu facilisis malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla at ex et orci rutrum venenatis et gravida elit. Phasellus fermentum, metus vel euismod finibus, velit arcu euismod ipsum, vitae dapibus ipsum magna sit amet elit. In vestibulum, urna ut fringilla mollis, augue turpis laoreet metus, id placerat quam odio vel justo. Phasellus a lectus et felis porta tempor. </p>
-		  </div>
-		  <div class="nav-center">
-		    <a class="nav-item" href="">
-		      <span class="icon">
-			<i class="fa fa-twitter"></i>
-		      </span>
-		    </a>
-		    <a class="nav-item" href="">
-		      <span class="icon">
-			<i class="fa fa-facebook"></i>
-		      </span>
-		    </a>
-		    <a class="nav-item" href="">
-		      <span class="icon">
-			<i class="fa fa-google-plus"></i>
-		      </span>
-		    </a>
+		  <div class="card-inner-wrapper">
+		    <!-- about text -->
+		    <div class="card-content-text">
+		      <p> Phasellus bibendum lectus magna, vitae sagittis orci feugiat non. Aenean varius diam vel nunc tincidunt congue. In hendrerit nulla quis justo hendrerit placerat. Aliquam volutpat nisl id nulla scelerisque, et dictum metus interdum. Integer hendrerit pellentesque velit, efficitur dapibus enim efficitur nec. Integer quis imperdiet nulla, in commodo lectus. Nunc vitae diam accumsan, rutrum urna vitae, ultricies velit. Vivamus rhoncus volutpat quam, id iaculis erat placerat vitae. Proin vehicula sodales odio, et dignissim turpis aliquet vel.</p>
+		      <p>Donec id nulla mauris. Suspendisse auctor felis id orci pulvinar, quis ultricies enim porttitor. Maecenas posuere, metus nec luctus interdum, sapien velit faucibus turpis, in cursus magna nulla vitae elit. Phasellus eleifend nulla eu facilisis malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla at ex et orci rutrum venenatis et gravida elit. Phasellus fermentum, metus vel euismod finibus, velit arcu euismod ipsum, vitae dapibus ipsum magna sit amet elit. In vestibulum, urna ut fringilla mollis, augue turpis laoreet metus, id placerat quam odio vel justo. Phasellus a lectus et felis porta tempor. </p>
+		    </div>
+		    <!-- end of about text -->
+
+		    <!-- about footer -->
+		    <div class="card-content-footer-small">
+		      <div class="nav-center">
+			<a class="nav-item" href="">
+			  <span class="icon">
+			    <i class="fa fa-twitter"></i>
+			  </span>
+			</a>
+			<a class="nav-item" href="">
+			  <span class="icon">
+			    <i class="fa fa-facebook"></i>
+			  </span>
+			</a>
+			<a class="nav-item" href="">
+			  <span class="icon">
+			    <i class="fa fa-google-plus"></i>
+			  </span>
+			</a>
+		      </div>
+		    </div>
+		    <!-- end of about footer -->
+		    
 		  </div>
 		</div>
 	      </div>
 	    </div>
 	  </div>
-	  <!-- end of contact column -->
+	  <!-- end of about column -->
 	</div>
-	<!-- end of contact columns -->
+	<!-- end of about columns -->
       </div>
     </div>
-    <!-- end of main page content -->
+    <!-- end of page content -->
 
     <!-- footer: will stick to the bottom -->
     <div class="hero-foot footer footer-top-shadow">
