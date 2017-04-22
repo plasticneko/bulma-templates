@@ -94,9 +94,9 @@ a.nav-item:hover  {
     padding-top: 2px;
 }
 
-.card-content-header {
+.card-content-header, .comments-header {
     background-color: #dd7325;
-    padding: 20px;
+    padding: 10px;
     box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
 }
 
@@ -159,12 +159,6 @@ a.nav-item:hover  {
 /* comments block */
 .comments-wrapper {
     padding: 25px;
-}
-
-.comments-header {
-    background-color: #dd7325;
-    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
-    padding: 20px;
 }
 
 .comments-header .title {
