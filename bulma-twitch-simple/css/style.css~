@@ -1,0 +1,92 @@
+/* github.com/plasticneko */
+/* bulma css framework by jeremy thomas (github.com/jgthms | bulma.io) */
+
+/* basic formatting changes (mostly to cater for darker colours) */
+
+.hero {
+    background-color: #0d0d0f;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.icon .fa {
+    font-size: 24px;
+}
+
+.hero h4 a:hover {
+    text-decoration: underline;
+}
+
+.block-wrapper {
+    padding: 30px;
+}
+
+.block-wrapper p, .block-wrapper .title, .block-wrapper .subtitle {
+    color: whitesmoke;
+}
+
+.block-header {
+    padding-bottom: 20px;
+}
+
+.block-header img {
+    height: 300px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.block-titles {
+    padding-top: 25px;
+}
+
+.block-titles a {
+    color: #932d99;
+}
+
+.block-content {
+    padding-top: 20px;
+}
+
+.block-content a {
+    color: #932d99;
+}
+
+.block-nav {
+    padding-top: 20px;
+}
+
+.footer-custom {
+    padding: 25px;
+}
+
+.footer-custom p {
+    color: whitesmoke;
+}
+
+.footer-custom a {
+    color: whitesmoke;
+}
+
+.nav-item a:hover, a.nav-item:hover {
+    color: whitesmoke;
+}
+
+/* pulse code */
+/* not my own, edited from https://codepen.io/wifeo/pen/KwdXwV / http://wifeo.com/code/ */
+/* if you are the owner, please contact me if the code is not open-source */
+
+.is-online img {
+  box-shadow: 0 0 0 0 #932d99;
+  -webkit-animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+.is-online:hover {
+  -webkit-animation: none;-moz-animation: none;-ms-animation: none; animation: none;
+}
+
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);}}
+@-ms-keyframes pulse {to {box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);}}
