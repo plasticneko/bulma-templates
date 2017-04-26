@@ -16,5 +16,5 @@ Below are examples of the templates in this repository. All themes contain a min
 
 [blog-simple](https://plasticneko.github.io/bulma-blog-simple/) - simple themed blog template
 
-[twitch-simple](https://plasticneko.github.io/bulma-twitch-simple/online.html || /offline.html) - simple themed twitch template 
+[twitch-simple](https://plasticneko.github.io/bulma-twitch-simple) - simple themed twitch template (/online.html /offline.html variants)
 
