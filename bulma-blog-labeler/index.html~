@@ -15,10 +15,10 @@
       <nav class="nav has-shadow">
 	<div class="container">
 	  <div class="nav-left">
-	    <a class="nav-item is-tab" href="index.html">
+	    <a class="nav-item is-tab is-active" href="index.html">
 	      Home
 	    </a>
-	    <a class="nav-item is-tab is-active" href="label.html">
+	    <a class="nav-item is-tab" href="label.html">
 	      Label
 	    </a>
 	    <a class="nav-item is-tab" href="post.html">
@@ -53,9 +53,6 @@
       <div class="container">
 	<div class="columns is-multiline">
 	  <div class="column is-8">
-	    <div class="hero-header-label">
-	      <h6 class="title is-6">Listing from <a href="label.html">Label 1</a></h6>
-	    </div>
 	    <!-- start of post -->
 	    <div class="box">
 	      <!-- box header -->
@@ -63,7 +60,7 @@
 		<h4 class="title is-4">
 		  Python Has Some Problems I Like
 		  <span class="labels is-pulled-right">
-		    <a href="label.html">Label 1</a>
+		    <a href="label.html">Label 3</a>
 		  </span>
 		</h4>		
 		<small>Posted by <a>Author</a> at 10:00am, February 25th 2010</small>
@@ -96,7 +93,7 @@
 		<h4 class="title is-4">
 		  Python Has Some Problems I Like
 		  <span class="labels is-pulled-right">
-		    <a href="label.html">Label 1</a>
+		    <a>Label 3</a>
 		  </span>
 		</h4>		
 		<small>Posted by <a>Author</a> at 10:00am, February 25th 2010</small>
@@ -129,7 +126,7 @@
 		<h4 class="title is-4">
 		  Python Has Some Problems I Like
 		  <span class="labels is-pulled-right">
-		    <a href="label.html">Label 1</a>
+		    <a>Label 3</a>
 		  </span>
 		</h4>		
 		<small>Posted by <a>Author</a> at 10:00am, February 25th 2010</small>
