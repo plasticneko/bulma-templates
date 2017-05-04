@@ -6,7 +6,7 @@ Can download all, any or one and change as much as you like.
 
 ### Example Links
 
-Below are examples of the templates in this repository. All themes contain a minimum of: an index page, an about page, a static page (blog post, for example) and a contact page.
+Below are examples of the templates in this repository. Most, with very few exceptions, examples have a: index page, about page, static page (blog post, for example) and contact page.
 
 [blog-article](https://plasticneko.github.io/bulma-blog-article/) - article themed blog template
 
@@ -19,3 +19,5 @@ Below are examples of the templates in this repository. All themes contain a min
 [twitch-simple](https://plasticneko.github.io/bulma-twitch-simple) - simple themed twitch template (/online.html /offline.html variants) (some examples: /examples/bnans /examples/rockleesmile with /online.html and /offline.html variants)
 
 [blog-labeler](https://plasticneko.github.io/bulma-blog-labeler/) - label focused blog template
+
+[blog-copy](https://plasticneko.github.io/bulma-blog-copy/) - remake of the bootstrap clean blog template (not exactly one-to-one, but pretty close)

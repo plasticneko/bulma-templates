@@ -1,0 +1,110 @@
+/* github.com/plasticneko */
+/* bulma css framework by jeremy thomas (github.com/jgthms | bulma.io) */
+
+/* input select  */
+.input:focus, .textarea:focus, input[type]:focus {
+    border: 1px solid #b5b5b5;
+    outline: none !important;
+}
+
+.input, .textarea {
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+/* header / hero top */
+.header-wrapper {
+    padding-bottom: 30px;
+}
+
+.hero-top {
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    box-shadow: 0 2px 3px #000;
+}
+
+/* header titles */
+.header .title, .header .subtitle {
+    color: whitesmoke;
+}
+
+.header-title-img {
+    padding-bottom: 1px;
+}
+
+.header-title-img img {
+    height: 150px;
+    width: auto;
+    border-radius: 50%;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+}
+
+/* hero */
+.hero {
+    background-color: transparent;
+}
+
+/* navigation */
+.nav {
+    background-color: transparent;
+}
+
+.nav a {
+    color: whitesmoke;
+}
+
+a.nav-item:hover, a.nav-item:active, a.nav-item:link, a.nav-item:visited {
+    color: whitesmoke;
+}
+
+/* box */
+.box {
+    padding: 30px;
+}
+
+/* content-header */
+.content-header {
+    padding-bottom: 10px;
+}
+
+.content-header .subtitle {
+    color: #9a9a9a;
+}
+
+/* pagination */
+.pagination-link.is-current, .pagination-next, .pagination-previous {
+    border: 1px solid #dbdbdb;
+    background-color: white;
+    color: #000;
+}
+
+/* icon */
+.icon .fa {
+    font-size: 1.5em;
+}
+
+.icon {
+    padding: 15px;
+}
+
+/* post */
+.post {
+    padding-bottom: 50px;
+}
+
+.post a {
+    color: #000;
+}
+
+/* footer */
+.footer p a {
+    color: #800000;
+}
+
+.footer a.nav-item:hover {
+    color: #000;
+}
+
+.footer a.nav-item {
+    color: #9a9a9a;
+}
