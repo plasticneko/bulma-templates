@@ -3,10 +3,6 @@
 
 /* basic formatting changes */
 
-html {
-    overflow-y: hidden;
-}
-
 /* hero */
 .hero {
     background-color: #0d0d0f;
