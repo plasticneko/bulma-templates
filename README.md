@@ -10,7 +10,7 @@ Below are examples of the templates in this repository. Most, with very few exce
 
 (UT means I am unhappy with the template and plan on re-doing it at some point)
 
-[blog-article](https://plasticneko.github.io/bulma-blog-article/) (UT) - article themed blog template
+[blog-article](https://plasticneko.github.io/bulma-blog-article/) (UT) - article-based blog template
 
 [blog-clean](https://plasticneko.github.io/bulma-blog-clean/) - clean blog template
 
