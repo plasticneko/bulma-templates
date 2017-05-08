@@ -12,17 +12,17 @@ Below are examples of the templates in this repository. Most, with very few exce
 
 [blog-article](https://plasticneko.github.io/bulma-blog-article/) (UT) - article themed blog template
 
-[blog-clean](https://plasticneko.github.io/bulma-blog-clean/) - clean themed blog template
+[blog-clean](https://plasticneko.github.io/bulma-blog-clean/) - clean blog template
 
-[blog-darker](https://plasticneko.github.io/bulma-blog-darker/) - dark themed blog template
+[blog-darker](https://plasticneko.github.io/bulma-blog-darker/) - dark blog template
 
-[blog-simple](https://plasticneko.github.io/bulma-blog-simple/) - simple themed blog template
+[blog-simple](https://plasticneko.github.io/bulma-blog-simple/) - simple blog template
 
-[twitch-simple](https://plasticneko.github.io/bulma-twitch-simple/online.html) - simple themed twitch template (/online.html /offline.html variants) (examples: /examples/bnans /examples/rockleesmile)
+[twitch-simple](https://plasticneko.github.io/bulma-twitch-simple/online.html) - simple twitch template (/online.html /offline.html variants) (examples: /examples/bnans /examples/rockleesmile)
 
 [blog-labeler](https://plasticneko.github.io/bulma-blog-labeler/) - label focused blog template
 
-[blog-copy](https://plasticneko.github.io/bulma-blog-copy/) - remake of the bootstrap clean blog template (not one-to-one, but pretty close)
+[blog-copy](https://plasticneko.github.io/bulma-blog-copy/) - fork of the bootstrap clean blog template
 
 [single-code](https://plasticneko.github.io/bulma-single-code/) - single page for a coding project
 
