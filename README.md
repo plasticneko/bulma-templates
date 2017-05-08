@@ -16,7 +16,7 @@ Below are examples of the templates in this repository. Most, with very few exce
 
 [blog-darker](https://plasticneko.github.io/bulma-blog-darker/) - dark themed blog template
 
-[blog-simple](https://plasticneko.github.io/bulma-blog-simple/) (UT) - simple themed blog template
+[blog-simple](https://plasticneko.github.io/bulma-blog-simple/) - simple themed blog template
 
 [twitch-simple](https://plasticneko.github.io/bulma-twitch-simple) - simple themed twitch template (/online.html /offline.html variants) (some examples: /examples/bnans /examples/rockleesmile with /online.html and /offline.html variants)
 
