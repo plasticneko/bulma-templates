@@ -28,17 +28,6 @@
     color: whitesmoke;
 }
 
-.header-title-img {
-    padding-bottom: 1px;
-}
-
-.header-title-img img {
-    height: 150px;
-    width: auto;
-    border-radius: 50%;
-    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
-}
-
 /* hero */
 .hero {
     background-color: transparent;
