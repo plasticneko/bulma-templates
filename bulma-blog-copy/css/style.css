@@ -98,7 +98,11 @@ a.nav-item:hover, a.nav-item:active, a.nav-item:link, a.nav-item:visited {
 
 /* footer */
 .footer p a {
-    color: #800000;
+    color: #4a4a4a;
+}
+
+.footer p a:hover {
+    color: #000;
 }
 
 .footer a.nav-item:hover {

@@ -22,7 +22,7 @@ Below are examples of the templates in this repository. Most, with very few exce
 
 [blog-labeler](https://plasticneko.github.io/bulma-blog-labeler/) - label focused blog template
 
-[blog-copy](https://plasticneko.github.io/bulma-blog-copy/) (UT) - remake of the bootstrap clean blog template (not exactly one-to-one, but pretty close)
+[blog-copy](https://plasticneko.github.io/bulma-blog-copy/) - remake of the bootstrap clean blog template (not one-to-one, but pretty close)
 
 [single-code](https://plasticneko.github.io/bulma-single-code/) - single page for a coding project
 
