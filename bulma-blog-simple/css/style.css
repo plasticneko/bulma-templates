@@ -1,3 +1,6 @@
+/* github.com/plasticneko */
+/* bulma css framework by jeremy thomas (github.com/jgthms | bulma.io) */
+
 .content {
     padding-bottom: 50px;
 }
@@ -38,3 +41,8 @@ a {
     color: #ff3860;   
 }
 
+/* input select  */
+.input:focus, .textarea:focus, input[type]:focus {
+    border: 1px solid #ff3860;
+    outline: none !important;
+}
