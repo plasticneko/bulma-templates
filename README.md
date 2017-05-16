@@ -13,7 +13,10 @@ I've added a "clean" branch for markup cleanups. A lot of these templates have u
 ### Legend
 
 RT - under reconfiguration
+
 DT - deprocated or no longer maintained
+
+---
 
 [blog-article](https://plasticneko.github.io/bulma-blog-article/) (RT) - article-based blog template
 
