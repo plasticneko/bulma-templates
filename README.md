@@ -8,9 +8,14 @@ Can download all, any or one and change as much as you like.
 
 Below are examples of the templates in this repository. Most, with very few exceptions, examples have a: index page, about page, static page (blog post, for example) and contact page.
 
-(UT means I am unhappy with the template and plan on re-doing it at some point)
+I've added a "clean" branch for markup cleanups. A lot of these templates have uncessary HTML tags, aside from one or two, and I aim to clean them all.
 
-[blog-article](https://plasticneko.github.io/bulma-blog-article/) (UT) - article-based blog template
+### Legend
+
+RT - under reconfiguration
+DT - deprocated or no longer maintained
+
+[blog-article](https://plasticneko.github.io/bulma-blog-article/) (RT) - article-based blog template
 
 [blog-clean](https://plasticneko.github.io/bulma-blog-clean/) - clean blog template
 
