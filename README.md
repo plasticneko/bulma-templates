@@ -26,3 +26,6 @@ Below are examples of the templates in this repository. Most, with very few exce
 
 [single-code](https://plasticneko.github.io/bulma-single-code/) - single page for a coding project
 
+[blog-neko](https://plasticneko.github.io/bulma-blog-neko/) - if i had a flagship template to represent this entire repository, it'd be this... or blog-darker
+
+
