@@ -1,0 +1,36 @@
+/* github.com/plasticneko */
+/* bulma css framework by jeremy thomas (github.com/jgthms | bulma.io) */
+
+/* basic formatting changes */
+
+a {
+    color: grey;
+}
+
+.content p, .header-content, .footer, .nav-header, .input, .textarea, .nav-footer p {
+    font-family: 'Crimson Text', serif;
+}
+
+.content p {
+    font-size: 1.1em;
+}
+
+.header-content small {
+    font-size: 1.0em;
+}
+
+.header-content {
+    padding-bottom: 20px;
+}
+
+.header-content img {
+    padding-bottom: 20px;
+}
+
+.post-wrapper {
+    padding-bottom: 50px;
+}
+
+.has-padding {
+    padding-bottom: 51px;
+}

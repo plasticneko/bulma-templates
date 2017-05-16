@@ -1,0 +1,201 @@
+/* github.com/plasticneko */
+/* bulma css framework by jeremy thomas (github.com/jgthms | bulma.io) */
+
+/* basic formatting changes (mostly to cater for darker colours) */
+
+/* html/body/font-fixes */
+body, input, textarea, .button {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fa small {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #7a7a7a;
+}
+
+/* button colouring */
+.is-button-grey, .pagination-link {
+    background-color: #7a7a7a;
+    border-color: transparent;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.button:hover, .pagination .is-current, .pagination-link:hover {
+    background-color: #dd7325;
+    border-color: transparent;
+    color: whitesmoke;
+}
+
+/* input select  */
+input:focus, textarea:focus, input[type]:focus {
+    box-shadow: 0 0 5px #719ECE;
+    border: 1px;
+    outline: none !important;
+}
+
+/* navigation */
+.nav {
+    background-color: #0c0f0f;
+}
+
+.nav a {
+    color: whitesmoke;
+}
+
+a.nav-item.is-tab.is-active {
+    border-bottom-color: #dd7325;
+    border-width: 2px;
+    color: whitesmoke;
+}
+
+a.nav-item.is-tab:hover {
+    border-bottom-color: #dd7325;
+    border-width: 2px;
+    color: #dd7325;
+}
+
+a.nav-item:hover  {
+    color: #dd7325;
+}
+
+/* page-header */
+.page-header .title {
+    color: whitesmoke;
+}
+
+.page-header .subtitle {
+    color: #dd7325;
+}
+
+.page-header {
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+}
+
+.page-header .section {
+    background-color: #161c1c;
+}
+
+/* page content styling */
+.page-content {
+    background-color: #363636;
+}
+
+/* card changes */
+.card {
+    background-color: #161c1c;
+}
+
+.card .card-content-footer {
+    color: #7a7a7a;
+}
+
+.card-content-footer i {
+    padding-right: 10px;
+    padding-top: 2px;
+}
+
+.card-content-header, .comments-header {
+    background-color: #dd7325;
+    padding: 10px;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+}
+
+.card-content-header .title, .card-content-header a {
+    color: whitesmoke;
+}
+
+.card-inner-wrapper {
+    padding: 25px;
+}
+
+.card-content-text {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #dd7325;
+}
+
+.card-content-text p {
+    color: whitesmoke;
+    font-size: 1.1em;
+}
+
+.card-content-text label {
+    color: whitesmoke;
+    font-weight: 100;
+}
+
+.card-content-nav {
+    padding-top: 10px;
+}
+
+.card-content-footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.card-content-footer-small {
+    padding-top: 20px;
+    margin-bottom: -25px;
+}
+
+.card-content-footer-cols {
+    padding-top: 20px;
+    margin-bottom: -20px;
+}
+
+.card-content-form {
+    padding-top: 20px;
+}
+
+/* pagination */
+.comments-content {
+    background-color: #161c1c;
+    padding-bottom: 10px;
+}
+
+.pagination-style-custom {
+    padding-top: 50px;
+}
+
+/* comments block */
+.comments-wrapper {
+    padding: 25px;
+}
+
+.comments-header .title {
+    color: whitesmoke;
+}
+
+.comments-wrapper p {
+    color: whitesmoke;
+}
+
+.comments-wrapper small {
+    color: #7a7a7a;
+}
+
+.comments-wrapper strong {
+    color: whitesmoke;
+    font-weight: 100;
+}
+
+.comments-wrapper a {
+    color: #dd7325;
+}
+
+.comments-wrapper .media .media, .comments-wrapper .media + .media {
+    border-top: 1px solid #dd7325;
+}
+
+/* footer */
+.footer {
+    background-color: #0c0f0f;
+    color: whitesmoke;
+}
+
+.footer a {
+    color: #dd7325;
+}
+
+.footer-top-shadow {
+    box-shadow: 0 1px 3px rgba(10, 10, 10, 0.1);
+}

@@ -1,0 +1,28 @@
+/* github.com/plasticneko */
+/* bulma css framework by jeremy thomas (github.com/jgthms | bulma.io) */
+
+.button.is-primary {
+    background-color: #00d1b2;
+    border-color: #fff;
+    color: #fff;
+}
+
+.button {
+    padding: 20px;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+.pre-wrapper {
+    padding-bottom: 20px;
+}
+
+.header-titles {
+    padding-bottom: 50px;
+}
+
+.content .main-text p:last-child {
+    padding-bottom: 30px;
+}

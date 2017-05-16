@@ -1,0 +1,278 @@
+/* github.com/plasticneko */
+/* bulma css framework by jeremy thomas (github.com/jgthms | bulma.io) */
+/* sticky footer by cheshire137 (github.com/cheshire137 | github.com/jgthms/bulma/pull/366) */
+
+/* general */
+body {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#root {
+    flex: 1 0 auto;
+}
+
+*:focus {
+    outline: none;
+}
+
+a {
+    transition: all .35s;
+    color: #000;
+}
+
+.button:focus {
+    border-color: #ff0083;
+    box-shadow: 0 0 0 0;
+}
+
+.input, .textarea, .input[type] {
+    font-size: 1.1rem;
+}
+
+.input:focus, .textarea:focus, .input[type]:focus {
+    border: 2px solid #ff0083;
+}
+
+/* this is used when inline-styled content 
+   overlaps text backgrounds in a really ugly way */
+.buffer {
+    padding-bottom: 1.1rem;
+}
+
+/* navigation */
+.nav {
+    background-color: #0d0c0d;
+}
+
+.nav-left {
+    padding-left: 2rem;
+}
+
+.nav-right, .nav-center {
+    padding-right: 2rem;
+}
+
+a.nav-item.is-tab {
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0.4rem;
+}
+
+a.nav-item:hover {
+    color: #ff0083;
+}
+
+a.nav-item.is-tab:hover {
+    border-bottom: 4px solid #ff0083;
+}
+
+/* hero */
+.hero {
+    background-image: url("../img/header.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.hero .title, .hero .subtitle {
+    background-color: rgba(0,0,0,.7);
+    color: whitesmoke;
+    display: inline;
+}
+
+.hero .title {
+    background-color: rgba(0,0,0,.7);
+    text-transform: uppercase;
+    font-weight: 700;
+    white-space: nowrap;
+    font-size: 2rem;
+}
+
+.hero .subtitle {
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+/* main content */
+.main-content {
+    padding: 4rem 0 2rem 0;
+}
+
+.main-content .container {
+    background-color: #fff;
+    padding: 0 2rem 2rem 2rem;
+}
+
+/* section */
+.section {
+    padding: 0 0 2rem 0;
+}
+
+.section-header {
+    padding-bottom: 3rem;    
+}
+
+.section-header .title {
+    text-transform: uppercase;
+    color: #4a4a4a;
+    font-size: 1.3rem;
+}
+
+.section-header a {
+    color: #ff0083;
+    font-weight: 700;
+}
+
+.section-header a:hover {
+    color: #e50076;
+}
+
+/* sidebar */
+.sidebar-header {
+    border-color: #ff0083;
+    padding-bottom: 1rem;
+    border-bottom: 4px solid #ff0083;
+}
+
+.sidebar-header .title, .sidebar-header-single .title {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+.sidebar-list p, .sidebar-list-single p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding-bottom: 0.8rem;
+}
+
+.sidebar-list a {
+    color: #4a4a4a;
+}
+
+.sidebar-list, .post-content, .sidebar-list-single {
+    padding-top: 1.4rem;
+}
+
+.sidebar-list-nav {
+    padding-top: 1rem;
+}
+
+.sidebar-list-nav .is-tab {
+    padding-right: 1rem;
+}
+
+.sidebar-footer-single {
+    padding-top: 2rem;
+}
+
+.sidebar-footer-single a {
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    border-right: 4px solid #ff0083;
+    padding-right: 1rem;
+}
+
+.sidebar-footer-single a:hover {
+    color: #363636;
+}
+
+/* post */
+.post-header, .sidebar-header-single {
+    border-color: #ff0083;
+    padding-left: 1rem;
+    border-left: 4px solid #ff0083;
+}
+
+.post-header .title {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+.post-header .subtitle, .sidebar-header-single .subtitle {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+.post-content p, .post-single-content p {
+    margin-bottom: 0.8rem;
+}
+
+.post-content, .post-single-content {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+/* override */
+.post-single-content form p:nth-child(even) {
+    border-right: 0;
+}
+
+.post-single-content form label {
+    text-transform: uppercase;
+    color: #4a4a4a;
+    padding-bottom: 0.2rem;
+}
+
+.post-single-content form .input[type] {
+    padding-top: 0.2rem;
+}
+
+.post-single-content p:nth-child(even) {
+    border-right: 4px solid #ff0083;
+    padding-right: 1rem;
+}		
+
+.post-content a {
+    color: #ff0083;
+}
+
+.card-content-form form {
+    padding-top: 1.5rem;
+}
+
+.post-footer {
+    padding: 1.5rem 0 0 0;
+}
+
+/* pagination */
+.pagination-content {
+    border-right: 4px solid #ff0083;
+    padding-right: 1rem;
+}
+
+.pagination-link.is-current {
+    background-color: #ff0083;
+    border-color: #ff0083;
+}
+
+/* footer */
+.footer-custom {
+    background-color: #0d0c0d;
+    color: #fff;
+}
+
+.footer-custom p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-custom a {
+    color: #ff0083;
+}
+
+.footer-custom a:hover {
+    color: #e50076;
+}
+

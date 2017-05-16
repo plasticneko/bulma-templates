@@ -1,0 +1,48 @@
+/* github.com/plasticneko */
+/* bulma css framework by jeremy thomas (github.com/jgthms | bulma.io) */
+
+.content {
+    padding-bottom: 50px;
+}
+
+.content p {
+    padding-bottom: 15px;
+}
+
+.footer-custom {
+    padding: 30px;
+}
+
+.single-content p {
+    padding-bottom: 15px;
+}
+
+.single-content {
+    padding-bottom: 50px;
+}
+
+.header-content {
+    padding-bottom: 20px;
+}
+
+.subheader-content {
+    padding-bottom: 20px;
+}
+
+
+/* colour changes to the bulma framework */
+a {
+    color: #ff3860;
+}
+
+
+.tabs li.is-active a {
+    border-bottom-color: #ff3860;
+    color: #ff3860;   
+}
+
+/* input select  */
+.input:focus, .textarea:focus, input[type]:focus {
+    border: 1px solid #ff3860;
+    outline: none !important;
+}
