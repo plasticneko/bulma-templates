@@ -109,6 +109,7 @@ a.nav-item.is-tab:hover {
 .main-content .container {
     background-color: #fff;
     padding: 0 2rem 2rem 2rem;
+    min-height: 30rem;
 }
 
 /* section */
