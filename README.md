@@ -16,11 +16,11 @@ This is the "clean" repository. Removal of any uneccessary tags or text is what 
  
 [single-code](https://plasticneko.github.io/bulma-single-code/) - fine
 
-[twitch-simple](https://plasticneko.github.io/bulma-single-code/) - some unecessary tags
+[twitch-simple](https://plasticneko.github.io/bulma-twitch-simple/online.html) - some unecessary tags
 
-[blog-labeler](https://plasticneko.github.io/bulma-single-code/) - fine
+[blog-labeler](https://plasticneko.github.io/bulma-blog-labeler/) - fine
 
-[blog-neko](https://plasticneko.github.io/bulma-single-code/) - fine
+[blog-neko](https://plasticneko.github.io/bulma-blog-neko/) - fine
 
 
 
