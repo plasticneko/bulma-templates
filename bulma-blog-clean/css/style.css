@@ -7,8 +7,21 @@ a {
     color: grey;
 }
 
+.main-content {
+    padding-top: 2.5rem;
+}
+
 .content p, .header-content, .footer, .nav-header, .input, .textarea, .nav-footer p {
     font-family: 'Crimson Text', serif;
+}
+
+.button:focus {
+    border-color: #4a4a4a;
+    box-shadow: 0 0 0 #4a4a4a;
+}
+
+.menu-label:not(:first-child) {
+    margin-top: 0;
 }
 
 .content p {
@@ -33,4 +46,8 @@ a {
 
 .has-padding {
     padding-bottom: 51px;
+}
+
+.footer {
+    margin-top: 2rem;
 }

@@ -3,18 +3,22 @@
 
 /* basic formatting changes */
 
-.section {
+body, .section {
     background-color: whitesmoke;
 }
 
-.footer-top-shadow {
-    border-top: 1px solid transparent;
-    box-shadow: 0 1px 2px rgba(10, 10, 10, 0.1);
+.pagination-next, .pagination-previous, .pagination-link {
+    background-color: #fff;
 }
 
-.hero-foot {
-    height: 120px;
-    padding: 25px;
+.footer {
+    margin-top: 2rem;
+}
+
+.footer-top-shadow {
+    background-color: #fff;
+    border-top: 1px solid transparent;
+    box-shadow: 0 1px 2px rgba(10, 10, 10, 0.1);
 }
 
 .card-wrapper {
