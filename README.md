@@ -18,7 +18,6 @@ DT - deprocated or no longer maintained
 
 ---
 
-<<<<<<< HEAD
 [blog-article](https://plasticneko.github.io/bulma-blog-article/) (RT) - needs total rework
 
 [blog-clean](https://plasticneko.github.io/bulma-blog-clean/) - unecessary tags
@@ -26,7 +25,7 @@ DT - deprocated or no longer maintained
 [blog-darker](https://plasticneko.github.io/bulma-blog-darker/) - unecessary tags
 
 [blog-simple](https://plasticneko.github.io/bulma-blog-simple/) - unecessary tags
-=======
+
 [blog-article](https://plasticneko.github.io/bulma-blog-article/) (RT) - article-based blog template
 
 [blog-clean](https://plasticneko.github.io/bulma-blog-clean/) - clean blog template
@@ -34,21 +33,18 @@ DT - deprocated or no longer maintained
 [blog-darker](https://plasticneko.github.io/bulma-blog-darker/) - dark blog template
 
 [blog-simple](https://plasticneko.github.io/bulma-blog-simple/) - simple blog template
->>>>>>> parent of 6dd4375... clean init
 
 [twitch-simple](https://plasticneko.github.io/bulma-twitch-simple/online.html) - simple twitch template (/online.html /offline.html variants) (examples: /examples/bnans /examples/rockleesmile)
 
 [blog-labeler](https://plasticneko.github.io/bulma-blog-labeler/) - label focused blog template
 
-<<<<<<< HEAD
 [blog-copy](https://plasticneko.github.io/bulma-blog-copy/) - unecessary tags
  
 [single-code](https://plasticneko.github.io/bulma-single-code/) - unecessary tags
-=======
+
 [blog-copy](https://plasticneko.github.io/bulma-blog-copy/) - fork of the bootstrap clean blog template
 
 [single-code](https://plasticneko.github.io/bulma-single-code/) - single page for a coding project
->>>>>>> parent of 6dd4375... clean init
 
 [blog-neko](https://plasticneko.github.io/bulma-blog-neko/) - if i had a flagship template to represent this entire repository, it'd be this... or blog-darker
 
