@@ -26,6 +26,11 @@ body, input, textarea, .button {
     color: whitesmoke;
 }
 
+.button:focus {
+    box-shadow: none;
+    border-color: transparent;
+}
+
 /* input select  */
 input:focus, textarea:focus, input[type]:focus {
     box-shadow: 0 0 5px #719ECE;
@@ -58,26 +63,27 @@ a.nav-item:hover  {
     color: #dd7325;
 }
 
-/* page-header */
-.page-header .title {
+/* main-header */
+.main-header .title {
     color: whitesmoke;
 }
 
-.page-header .subtitle {
+.main-header .subtitle {
     color: #dd7325;
 }
 
-.page-header {
+.main-header {
     box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
 }
 
-.page-header .section {
+.main-header .hero {
     background-color: #161c1c;
 }
 
-/* page content styling */
-.page-content {
+/* main content styling */
+.main-content {
     background-color: #363636;
+    padding: 3rem 1.5rem;
 }
 
 /* card changes */

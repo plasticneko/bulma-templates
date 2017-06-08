@@ -3,8 +3,13 @@
 
 /* input select  */
 .input:focus, .textarea:focus, input[type]:focus {
-    border: 1px solid #b5b5b5;
+    border: 1px solid #4a4a4a;
     outline: none !important;
+}
+
+.button:focus, .pagination-next:active, .pagination-previous:active, .pagination-link:active {
+    border-color: #4a4a4a;
+    box-shadow: 0 0 0 #4a4a4a;
 }
 
 .input, .textarea {
@@ -44,6 +49,11 @@
 
 a.nav-item:hover, a.nav-item:active, a.nav-item:link, a.nav-item:visited {
     color: whitesmoke;
+}
+
+/* main content */
+.main-content {
+    padding-top: 2rem;
 }
 
 /* box */
@@ -86,6 +96,10 @@ a.nav-item:hover, a.nav-item:active, a.nav-item:link, a.nav-item:visited {
 }
 
 /* footer */
+.footer {
+    margin-top: 2rem;
+}
+
 .footer p a {
     color: #4a4a4a;
 }
