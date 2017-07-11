@@ -7,8 +7,9 @@ body {
     font-family: 'Fira Sans', sans-serif;
 }
 
-.hero-body {
-    padding-top: 5px;
+.main-content {
+    padding-top: 0.5rem;
+    padding-bottom: 3rem;
 }
 
 .hero-header-label {
@@ -45,7 +46,7 @@ a {
 }
 
 /* page header formatting */
-.page-header .title {
+.main-header .title {
     font-size: 2.5em;
 }
 
