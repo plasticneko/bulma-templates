@@ -6,7 +6,7 @@ Can download all, any or one and change as much as you like.
 
 ### Example Links
 
-Below are examples of the templates in this repository. Most, with very few exceptions, examples have a: index page, about page, static page (blog post, for example) and contact page.
+Below are examples of the templates in this repository. Most, with very few exceptions, examples have the following pages: index page, about page, static page (blog post, for example) and contact page.
 
 I've added a "clean" branch for markup cleanups. A lot of these templates have uncessary HTML tags, aside from one or two, and I aim to clean them all.
 
