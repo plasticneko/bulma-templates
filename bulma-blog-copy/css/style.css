@@ -2,7 +2,7 @@
 /* bulma css framework by jeremy thomas (github.com/jgthms | bulma.io) */
 
 /* input select  */
-.input:focus, .textarea:focus, input[type]:focus {
+.input:focus, .textarea:focus, input[type]:focus, .button:focus {
     border: 1px solid #4a4a4a;
     outline: none !important;
 }
