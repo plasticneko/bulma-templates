@@ -10,6 +10,10 @@ Below are examples of the templates in this repository. Most, with very few exce
 
 I've added a "clean" branch for markup cleanups. A lot of these templates have uncessary HTML tags, aside from one or two, and I aim to clean them all.
 
+### Notes
+
+If you're finding that your footers are not tied to the very bottom of the page, take a look at [Philip Walton's Sticky Footer](https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/).
+
 ### Legend
 
 RT - under reconfiguration
