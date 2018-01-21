@@ -1,6 +1,6 @@
 ## Bulma Framework Examples
 
-Compilation of the small Bulma CSS framwork templates/themes I've made. These aren't perfect--not by any means.
+Compilation of the small Bulma CSS framework templates/themes I've made. These aren't perfect--not by any means.
 
 Can download all, any or one and change as much as you like.
 
