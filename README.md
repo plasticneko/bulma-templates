@@ -4,7 +4,7 @@ Compilation of the small Bulma CSS framework templates/themes I've made. These a
 
 Can download all, any or one and change as much as you like.
 
-Update: 21/01/2018
+_Update: 21/01/2018_
 
 So, I love Bulma to pieces. But, I don't have the time I would like to have to continue to play around with it. Meaning, this repository isn't dead, but I may not update it anywhere near as frequently as I may have during the latter half of 2016 and the early parts of 2017.
 
