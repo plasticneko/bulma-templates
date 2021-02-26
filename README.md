@@ -8,6 +8,8 @@ support and use [philip walton's sticky footer](https://philipwalton.github.io/s
 
 ### live examples
 
+some of the links here are likely busted, so clone the repo and view the html files in your browser as an alternative.
+
 [blog-neko](https://plasticneko.github.io/bulma-blog-neko/) - blog template
 
 [blog-darker](https://plasticneko.github.io/bulma-blog-darker/) - dark blog template
